@@ -160,22 +160,30 @@ header .title h1 {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  margin-top: 17.5rem;
+  margin-top: 20rem;
   padding: 0 4rem;
+  /* Tablet */
+  /* Mobile */
   /* Subtítulo Negocios Inmobiliarios */
 }
 @media only screen and (min-width: 571px) and (max-width: 990px) {
   header .title h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     padding: 0 1rem;
-    margin-top: 25rem;
+    margin-top: 20rem;
   }
 }
-@media only screen and (max-width: 570px) {
+@media only screen and (min-width: 351px) and (max-width: 570px) {
+  header .title h1 {
+    font-size: 3rem;
+    padding: 0 1rem;
+    margin-top: 20rem;
+  }
+}
+@media only screen and (max-width: 350px) {
   header .title h1 {
     font-size: 2rem;
     padding: 0 1rem;
-    margin-top: 23rem;
   }
 }
 header .title h1 .subtitle {
@@ -192,16 +200,23 @@ header .title h1 .subtitle {
 }
 @media only screen and (min-width: 571px) and (max-width: 990px) {
   header .title h1 .subtitle {
-    font-size: 3rem;
-    right: 3rem;
+    font-size: 6rem;
+    right: 1rem;
     top: 0.5rem;
   }
 }
 @media only screen and (max-width: 570px) {
   header .title h1 .subtitle {
-    font-size: 2rem;
-    right: 2rem;
+    font-size: 4rem;
+    right: 1rem;
     top: 0.5rem;
+    text-shadow: #fafbfd 0.2em 0.2em 0.3em;
+  }
+}
+@media only screen and (max-width: 350px) {
+  header .title h1 .subtitle {
+    font-size: 3rem;
+    text-shadow: #fafbfd 0.2em 0.2em 0.3em;
   }
 }
 header .navbar-top-container {
