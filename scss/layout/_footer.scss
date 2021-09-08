@@ -10,6 +10,8 @@ footer {
     background-color: $bordo;
     padding: 0;
     margin: 0;
+    position: absolute;
+    width: 100%;
 
 
     .navbar-bottom-container {
@@ -101,11 +103,13 @@ footer {
             }
         }
     }
-    .sub-footer {
+    .sub-footer {  
         text-align: center;
         border-top:  1px solid $white;
         margin: 0.1rem auto;
         color: $white-2;
+        width: 90%;
+        
 
     }  
 }
