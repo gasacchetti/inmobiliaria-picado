@@ -17,32 +17,32 @@ header {
         display: flex;
         align-items: flex-end;
         padding-bottom: 2rem;
+
         h1 {
             width: 100%;
             font-size: 6rem;
             display: flex;
             flex-direction: column;
-            align-items: baseline;
-            
+            align-items: baseline; 
             padding: 0 4rem;
 
             /* Tablet */
             @media only screen and (min-width: 571px) and (max-width: 990px) {
                 font-size: 5rem;
-                padding: 0 1rem;
+                padding: 2rem 1rem;
                
             }
 
             /* Mobile */
             @media only screen and (min-width: 351px) and (max-width: 570px) {
                 font-size: 3rem;
-                padding: 0 1rem;
+                padding: 2rem 1rem;
                 
             }
 
             @media only screen and (max-width: 350px) {
                 font-size: 2rem;
-                padding: 0 1rem;
+                padding: 2rem 1rem;
             }
 
             /* Subtítulo Negocios Inmobiliarios */

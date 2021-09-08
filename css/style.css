@@ -174,19 +174,19 @@ header .title h1 {
 @media only screen and (min-width: 571px) and (max-width: 990px) {
   header .title h1 {
     font-size: 5rem;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
   }
 }
 @media only screen and (min-width: 351px) and (max-width: 570px) {
   header .title h1 {
     font-size: 3rem;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
   }
 }
 @media only screen and (max-width: 350px) {
   header .title h1 {
     font-size: 2rem;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
   }
 }
 header .title h1 .subtitle {
