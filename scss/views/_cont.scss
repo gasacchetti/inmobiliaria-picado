@@ -159,7 +159,7 @@
     @extend %title-secciones;
 }
 .tips-section  {
-    margin: 1rem 4rem;
+    margin: 1rem 2rem;
     display: flex;
     justify-content: center;
 
@@ -170,6 +170,10 @@
         height: 100%;
         padding: map-get($padding, small);
         margin: 0 1rem 1rem 0rem; 
+
+        @media only screen and (max-width: 990px) {
+            width: 100%;          
+        }
      
         .tip1  {
             background-color: $graylilac;
