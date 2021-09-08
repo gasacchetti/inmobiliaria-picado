@@ -463,6 +463,9 @@ footer .sub-footer {
   color: #d7d7d9;
   width: 90%;
 }
+footer .sub-footer p {
+  margin: 0;
+}
 
 /* Components */
 /* Colores más utilizados */

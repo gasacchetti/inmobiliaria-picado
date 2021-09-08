@@ -14,6 +14,7 @@ footer {
     width: 100%;
 
 
+
     .navbar-bottom-container {
         /* Display del footer */
         @include parametros-flex(100%, flex, space-evenly, center);
@@ -109,7 +110,10 @@ footer {
         margin: 0.1rem auto;
         color: $white-2;
         width: 90%;
-        
-
+     
+        p {
+            margin: 0;
+        }
+    
     }  
 }
