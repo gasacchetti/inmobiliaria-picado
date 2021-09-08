@@ -10,29 +10,34 @@ header {
     background-image: url('../images/bahia/bahia3.png');
     background-size: cover;
 
+
     /* Título INMOBILIARIA PICADO */
     .title {
+        height: 100vh;
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 2rem;
         h1 {
             width: 100%;
             font-size: 6rem;
             display: flex;
             flex-direction: column;
             align-items: baseline;
-            margin-top: 20rem;
+            
             padding: 0 4rem;
 
             /* Tablet */
             @media only screen and (min-width: 571px) and (max-width: 990px) {
                 font-size: 5rem;
                 padding: 0 1rem;
-                margin-top: 20rem;
+               
             }
 
             /* Mobile */
             @media only screen and (min-width: 351px) and (max-width: 570px) {
                 font-size: 3rem;
                 padding: 0 1rem;
-                margin-top: 20rem;
+                
             }
 
             @media only screen and (max-width: 350px) {
@@ -64,13 +69,13 @@ header {
                     font-size: 4rem;
                     right: 1rem;
                     top: 0.5rem;
-                    text-shadow: $white 0.2em 0.2em 0.3em;
+                    text-shadow: $white 0.2em 0.2em 0.2em;
                     
                 }
 
                 @media only screen and (max-width: 350px) {
                     font-size: 3rem;
-                    text-shadow: $white 0.2em 0.2em 0.3em;
+                    text-shadow: $white 0.2em 0.2em 0.2em;
                 }
             }
         }
