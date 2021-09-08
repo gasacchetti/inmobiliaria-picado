@@ -1,0 +1,58 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+.floating-whatsapp-container {
+    width: 100%;
+    position: fixed; /* posiciono boton en el viewport - elemento flotante */
+    bottom: 3rem; /* lo posiciono abajo */
+    left: 90%; /* y a la derecha*/
+    z-index: 200; /* le doy un valor de 200 para que quede por encima de todo*/
+
+        /* Mobile */
+        @media only screen and (max-width: 570px) {
+            left: 85%; 
+        }
+
+    .floating-whatsapp {
+        width: 4%;
+        border-radius: 100px;
+        box-shadow: 5px 5px 10px $lighterbordo; 
+        background-color: $white; 
+        
+            /* Mobile */
+            @media only screen and (max-width: 570px) {
+                width: 12%; 
+            }
+
+            @media only screen and (min-width:571px) and (max-width:990px) {
+                width: 8%; 
+            }
+
+            &:hover {
+                animation: inflate 1s ease-in; /* animación al hacer hover sobre boton de subir */
+                -moz-animation: inflate 1s ease-in;
+                -webkit-animation: inflate 1s ease-in;
+                -o-animation: inflate 1s ease-in;
+            }
+    }
+}
+
+@keyframes inflate {
+    0% {
+        transform: scale(1); /* tamaño en escala 1:1*/
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+    } 50% {
+        transform: scale(1.15); /* tamaño en escala 1.15:1 */
+        -moz-transform: scale(1.15);
+        -webkit-transform: scale(1.15);
+        -o-transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1); /* tamaño en escala 1:1*/
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+    }
+}

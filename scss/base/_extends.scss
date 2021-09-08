@@ -1,0 +1,75 @@
+@import '../base/colors';
+@import '../base/fonts';
+@import '../base/lists';
+@import '../base/maps';
+
+/* Tamaño para los logos de Inmobiliaria Picado */
+%size-logos {
+    width: 100px;
+    padding: 0.5rem;
+}
+
+/* Tamaño logos info de contacto */
+%size-info-contacto {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+/* Tamaño logos redes sociales */
+%size-redes-sociales {
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+
+/* Estilos links Footer */
+%a-footer {
+    text-decoration: none;
+    color: $white;
+    font-size: 0.9rem;
+
+    &:hover {
+        color: $lighterbordo;
+    }
+}
+
+/* Tamaño logos sección Valores */
+%size-valores {
+    width: 10rem;
+}
+
+/* Títulos secciones */
+%title-secciones {
+    font-size: nth($font-size, 6);
+    color: $bordo;
+    margin: 5rem 0 1rem 5rem;
+    font-weight: 500;
+    font-family: $montserrat;
+
+    @media only screen and (min-width:571px) and (max-width:990px)  {
+        text-align: center;
+        font-size: nth($font-size, 5);
+        margin-top: 9rem;
+    }
+
+    @media only screen and (max-width: 570px) {
+        text-align: left;
+        font-size: nth($font-size, 5);
+        margin-top: 10rem;
+    }
+}
+
+/* Tamaño logos sección Nosotros Misión Visión Valores */
+%size-nosotros-valores {
+    width: 10rem;
+}
+
+/* Tamaño logos sección Propiedades descripción */
+%size-propiedades-description {
+    width: 1.5rem;
+}
+
+/* Tamaño logos sección Propiedades amenities */
+%size-propiedades-amenities {
+    width: 2rem;
+}

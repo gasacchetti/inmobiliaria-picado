@@ -1,0 +1,191 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+@import '../components/buttons';
+
+/* Header */
+header {
+    width: 100%; 
+    height: 100vh;
+    background-image: url('../images/bahia/bahia3.png');
+    background-size: cover;
+
+    /* Título INMOBILIARIA PICADO */
+    .title {
+        h1 {
+            width: 100%;
+            font-size: 6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            margin-top: 17.5rem;
+            padding: 0 4rem;
+
+            @media only screen and (min-width: 571px) and (max-width: 990px) {
+                font-size: 3rem;
+                padding: 0 1rem;
+                margin-top: 25rem;
+            }
+
+            @media only screen and (max-width: 570px) {
+                font-size: 2rem;
+                padding: 0 1rem;
+                margin-top: 23rem;
+            }
+
+            /* Subtítulo Negocios Inmobiliarios */
+            .subtitle {
+                color: $lightbordo;
+                font-family: $cursive;
+                font-size: 8rem;
+                text-align: left;
+                font-weight: lighter;
+                position: relative;
+                top: 2rem;
+                right: 2.5rem;
+
+                /* Tablet */
+                @media only screen and (min-width: 571px) and (max-width: 990px) {
+                    font-size: 3rem;
+                    right: 3rem;
+                    top: 0.5rem;
+                }
+    
+                /* Mobile */
+                @media only screen and (max-width: 570px) {
+                    font-size: 2rem;
+                    right: 2rem;
+                    top: 0.5rem;
+                }
+            }
+        }
+    }
+
+/* Navbar */
+
+/* Contenedor principal navbar*/
+
+        .navbar-top-container {
+            width: 100%;
+            height: 2rem;
+            color: $white;
+            font-family: $cormorant;
+            font-size: 1.2rem;
+            margin: 0; /*Para evitar la linea que queda arriba y abajo de la navbar */
+            padding: 0; /*Para evitar la linea que queda arriba y abajo de la navbar */ 
+
+            /* Color del botón hamburguesa cuando lo presiono */
+            .navbar-dark {
+                color: $white-2;
+            }
+            .navbar-top {
+                @media only screen and (max-width: 990px) {
+                    background-color: rgb(166,101,125,0.7);
+                    margin: 0 10rem;
+                    z-index: 100;
+                    padding: 0.5rem;
+    
+
+                }
+                /* Al hacer hover toda la navbar completa transiciona a bordó */
+                &:hover {
+                    background-color: $bordo;
+                    transition: background-color 1.5s ease-in-out;
+                }
+                ul {
+                    li {
+                        a {
+                            /* Estilos para los links de la navbar, el padding idéntico es para que no "titile" */
+                            &:hover{
+                                background-color: $lightbordo;
+                                color: $white;
+                                padding: 0.2rem;
+                            }
+                            &:link {
+                                text-decoration: none;
+                                color: $white;
+                                padding: 0.2rem;
+                            }
+                            &:visited {
+                                color: $white;
+                            }
+                        }
+                    }
+                }               
+                .dropdown {
+                    /* Estilos para acomodar el dropdown que traía los estilos de Bootstrap */
+                    .btn {
+                        a {
+                            font-size: 1.2rem;
+                            text-decoration: none;
+                            padding: 0.3rem;
+                            color: $white; 
+                            text-align: center;
+
+                            &:hover {
+                                background-color: $lightbordo;
+                            }
+                        }
+                    }
+                    /* Estilos para los links del submenú */
+                    ul {
+                        background-color: $bordo;
+                        text-align: center;
+                        font-size: 1rem;
+                    }
+
+                    /* Color y hover para el split button */
+                    .dropdown-toggle {
+                        color: $white;                
+                        
+                        &:hover {
+                            background-color: $lightbordo;
+                        }
+                    }
+                }
+
+                /* Acomodo el logo central para que quede mitad en la navbar y mitad "caído" debajo */
+                .logo-inmobiliaria {
+                    position: relative;
+                    top: 3.5rem;
+                    margin-top: -3rem;
+                }
+            
+                /* Estilos para el botón IR */
+                .navbar-button {
+                    width: 12rem;
+                    .search-button {
+                        @extend %btn-common;
+                    }
+                }
+            }
+        }
+    }
+    
+/* Las navbar de las secciones son de color sólido */
+
+.header-sections {
+    background-image: none;
+    background-color: $bordo;
+    height: 3rem;
+    box-shadow: 5px 5px 15px $white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+
+    @media only screen and (max-width: 990px) {
+        height: 7.5rem; 
+    }
+
+    .navbar-top-container {
+        .navbar-top {
+            background-color: $bordo;
+            z-index: 100;
+        }
+    }
+}
+
+
+
+
+

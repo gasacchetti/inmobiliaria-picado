@@ -1,0 +1,1169 @@
+@charset "UTF-8";
+/* Main file */
+/* Base */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Reseteo todos los valores que vienen con html por default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Color de fondo, fuente y color general para todo el body */
+body {
+  background-color: #fafbfd;
+  /* fondo para toda la página */
+  font-family: "Montserrat", sans-serif;
+  /* fuente para toda la página */
+  color: black;
+  /* color fuente para toda la página */
+}
+
+/* Títulos principales de todas las secciones */
+h1 {
+  color: #fafbfd;
+  font-family: "Cormorant Garamond", "serif";
+  font-weight: normal;
+}
+
+/* Títulos secundarios de todas las secciones */
+h2 {
+  color: #a62454;
+  font-family: "Cormorant Garamond", "serif";
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Subtítulos menos importantes */
+h3 {
+  color: #fafbfd;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 550;
+}
+
+/* Párrafos normales */
+p {
+  font-size: 15px;
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Tamaño para los logos de Inmobiliaria Picado */
+/* Tamaño logos info de contacto */
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail .icon-mail, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone .icon-call, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address .icon-marcador-de-posicion {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+/* Tamaño logos redes sociales */
+footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-instagram, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-telegrama {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* Estilos links Footer */
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a {
+  text-decoration: none;
+  color: #fafbfd;
+  font-size: 0.9rem;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover {
+  color: #a6657d;
+}
+
+/* Tamaño logos sección Valores */
+.valores-container .valores .valores-logo {
+  width: 10rem;
+}
+
+/* Títulos secciones */
+.titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+  font-size: 2.5rem;
+  color: #a62454;
+  margin: 5rem 0 1rem 5rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+@media only screen and (min-width: 571px) and (max-width: 990px) {
+  .titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 9rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 10rem;
+  }
+}
+
+/* Tamaño logos sección Nosotros Misión Visión Valores */
+.nosotros-container .mision-vision-valores .mision-vision-valores-logo {
+  width: 10rem;
+}
+
+/* Tamaño logos sección Propiedades descripción */
+.propiedad-section-container .prop-section .card-price .icono-description, .propiedad-section-container .prop-section .card-description .icono-description {
+  width: 1.5rem;
+}
+
+/* Tamaño logos sección Propiedades amenities */
+.propiedad-section-container .prop-section .card-amenities .icono-description {
+  width: 2rem;
+}
+
+/* Layout */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Estilos comunes a todos los botones */
+.propiedad-section-container .prop-section .prop-button .prop-button-vermas, .formulario-container .formulario .enviar-button, .propiedad-button .vermas-button, header .navbar-top-container .navbar-top .navbar-button .search-button {
+  background: #a62454;
+  color: #fafbfd;
+  border-style: none;
+  border-color: #a6657d;
+  border-radius: 8px;
+  transition: all 1s ease;
+  box-shadow: none;
+  font-family: "Cormorant Garamond", "serif";
+  font-size: 1.2rem;
+}
+.propiedad-section-container .prop-section .prop-button .prop-button-vermas:hover, .formulario-container .formulario .enviar-button:hover, .propiedad-button .vermas-button:hover, header .navbar-top-container .navbar-top .navbar-button .search-button:hover {
+  background-color: #a6657d;
+  border-style: solid;
+  border-color: #a6657d;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/bahia/bahia3.png");
+  background-size: cover;
+  /* Título INMOBILIARIA PICADO */
+  /* Navbar */
+  /* Contenedor principal navbar*/
+}
+header .title h1 {
+  width: 100%;
+  font-size: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-top: 17.5rem;
+  padding: 0 4rem;
+  /* Subtítulo Negocios Inmobiliarios */
+}
+@media only screen and (min-width: 571px) and (max-width: 990px) {
+  header .title h1 {
+    font-size: 3rem;
+    padding: 0 1rem;
+    margin-top: 25rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  header .title h1 {
+    font-size: 2rem;
+    padding: 0 1rem;
+    margin-top: 23rem;
+  }
+}
+header .title h1 .subtitle {
+  color: #8c3e5b;
+  font-family: "Mrs Saint Delafield", "cursive";
+  font-size: 8rem;
+  text-align: left;
+  font-weight: lighter;
+  position: relative;
+  top: 2rem;
+  right: 2.5rem;
+  /* Tablet */
+  /* Mobile */
+}
+@media only screen and (min-width: 571px) and (max-width: 990px) {
+  header .title h1 .subtitle {
+    font-size: 3rem;
+    right: 3rem;
+    top: 0.5rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  header .title h1 .subtitle {
+    font-size: 2rem;
+    right: 2rem;
+    top: 0.5rem;
+  }
+}
+header .navbar-top-container {
+  width: 100%;
+  height: 2rem;
+  color: #fafbfd;
+  font-family: "Cormorant Garamond", "serif";
+  font-size: 1.2rem;
+  margin: 0;
+  /*Para evitar la linea que queda arriba y abajo de la navbar */
+  padding: 0;
+  /*Para evitar la linea que queda arriba y abajo de la navbar */
+  /* Color del botón hamburguesa cuando lo presiono */
+}
+header .navbar-top-container .navbar-dark {
+  color: #d7d7d9;
+}
+header .navbar-top-container .navbar-top {
+  /* Al hacer hover toda la navbar completa transiciona a bordó */
+  /* Acomodo el logo central para que quede mitad en la navbar y mitad "caído" debajo */
+  /* Estilos para el botón IR */
+}
+@media only screen and (max-width: 990px) {
+  header .navbar-top-container .navbar-top {
+    background-color: rgba(166, 101, 125, 0.7);
+    margin: 0 10rem;
+    z-index: 100;
+    padding: 0.5rem;
+  }
+}
+header .navbar-top-container .navbar-top:hover {
+  background-color: #a62454;
+  transition: background-color 1.5s ease-in-out;
+}
+header .navbar-top-container .navbar-top ul li a {
+  /* Estilos para los links de la navbar, el padding idéntico es para que no "titile" */
+}
+header .navbar-top-container .navbar-top ul li a:hover {
+  background-color: #8c3e5b;
+  color: #fafbfd;
+  padding: 0.2rem;
+}
+header .navbar-top-container .navbar-top ul li a:link {
+  text-decoration: none;
+  color: #fafbfd;
+  padding: 0.2rem;
+}
+header .navbar-top-container .navbar-top ul li a:visited {
+  color: #fafbfd;
+}
+header .navbar-top-container .navbar-top .dropdown {
+  /* Estilos para acomodar el dropdown que traía los estilos de Bootstrap */
+  /* Estilos para los links del submenú */
+  /* Color y hover para el split button */
+}
+header .navbar-top-container .navbar-top .dropdown .btn a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 0.3rem;
+  color: #fafbfd;
+  text-align: center;
+}
+header .navbar-top-container .navbar-top .dropdown .btn a:hover {
+  background-color: #8c3e5b;
+}
+header .navbar-top-container .navbar-top .dropdown ul {
+  background-color: #a62454;
+  text-align: center;
+  font-size: 1rem;
+}
+header .navbar-top-container .navbar-top .dropdown .dropdown-toggle {
+  color: #fafbfd;
+}
+header .navbar-top-container .navbar-top .dropdown .dropdown-toggle:hover {
+  background-color: #8c3e5b;
+}
+header .navbar-top-container .navbar-top .logo-inmobiliaria {
+  position: relative;
+  top: 3.5rem;
+  margin-top: -3rem;
+}
+header .navbar-top-container .navbar-top .navbar-button {
+  width: 12rem;
+}
+/* Las navbar de las secciones son de color sólido */
+.header-sections {
+  background-image: none;
+  background-color: #a62454;
+  height: 3rem;
+  box-shadow: 5px 5px 15px #fafbfd;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+@media only screen and (max-width: 990px) {
+  .header-sections {
+    height: 7.5rem;
+  }
+}
+.header-sections .navbar-top-container .navbar-top {
+  background-color: #a62454;
+  z-index: 100;
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Tamaño para los logos de Inmobiliaria Picado */
+/* Tamaño logos info de contacto */
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail .icon-mail, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone .icon-call, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address .icon-marcador-de-posicion {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+/* Tamaño logos redes sociales */
+footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-instagram, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-telegrama {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* Estilos links Footer */
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a {
+  text-decoration: none;
+  color: #fafbfd;
+  font-size: 0.9rem;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover {
+  color: #a6657d;
+}
+
+/* Tamaño logos sección Valores */
+.valores-container .valores .valores-logo {
+  width: 10rem;
+}
+
+/* Títulos secciones */
+.titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+  font-size: 2.5rem;
+  color: #a62454;
+  margin: 5rem 0 1rem 5rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+@media only screen and (min-width: 571px) and (max-width: 990px) {
+  .titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 9rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 10rem;
+  }
+}
+
+/* Tamaño logos sección Nosotros Misión Visión Valores */
+.nosotros-container .mision-vision-valores .mision-vision-valores-logo {
+  width: 10rem;
+}
+
+/* Tamaño logos sección Propiedades descripción */
+.propiedad-section-container .prop-section .card-price .icono-description, .propiedad-section-container .prop-section .card-description .icono-description {
+  width: 1.5rem;
+}
+
+/* Tamaño logos sección Propiedades amenities */
+.propiedad-section-container .prop-section .card-amenities .icono-description {
+  width: 2rem;
+}
+
+footer {
+  /* Color de fondo del footer */
+  background-color: #a62454;
+  padding: 0;
+  margin: 0;
+}
+footer .navbar-bottom-container {
+  /* Display del footer */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 4rem;
+  color: #fafbfd;
+  /* Hover del logo del footer NO FUNCIONA EL TRANSFORM */
+  /* Info de contacto y redes sociales */
+}
+footer .navbar-bottom-container .logo {
+  padding: 1rem;
+}
+footer .navbar-bottom-container .logo a img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  transition: all 0.5s ease-in;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address p {
+  margin: 0.2rem;
+  text-align: center;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a {
+  margin: 0.2rem;
+  text-align: center;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a {
+  margin: 0.2rem;
+  text-align: center;
+}
+footer .navbar-bottom-container .info-contacto .redes-sociales {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+footer .navbar-bottom-container .info-contacto .redes-sociales a {
+  text-decoration: none;
+}
+footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook:hover:before, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-instagram:hover:before, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-telegrama:hover:before {
+  /* Necesito el before para el hover de las fuentes de icomoon */
+  color: #a6657d;
+}
+footer .sub-footer {
+  text-align: center;
+  border-top: 1px solid #fafbfd;
+  margin: 0.1rem auto;
+}
+
+/* Components */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Estilos comunes a todos los botones */
+.propiedad-section-container .prop-section .prop-button .prop-button-vermas, .formulario-container .formulario .enviar-button, .propiedad-button .vermas-button, header .navbar-top-container .navbar-top .navbar-button .search-button {
+  background: #a62454;
+  color: #fafbfd;
+  border-style: none;
+  border-color: #a6657d;
+  border-radius: 8px;
+  transition: all 1s ease;
+  box-shadow: none;
+  font-family: "Cormorant Garamond", "serif";
+  font-size: 1.2rem;
+}
+.propiedad-section-container .prop-section .prop-button .prop-button-vermas:hover, .formulario-container .formulario .enviar-button:hover, .propiedad-button .vermas-button:hover, header .navbar-top-container .navbar-top .navbar-button .search-button:hover {
+  background-color: #a6657d;
+  border-style: solid;
+  border-color: #a6657d;
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+.carousel {
+  width: 40%;
+  margin: 2rem auto;
+  /* --- Tablet y mobile --- */
+}
+@media only screen and (max-width: 991px) {
+  .carousel {
+    width: 70%;
+  }
+}
+
+.carousel-item p {
+  font-weight: 500;
+  color: #fafbfd;
+}
+
+.carousel-caption {
+  background-color: rgba(166, 101, 125, 0.7);
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+.floating-whatsapp-container {
+  width: 100%;
+  position: fixed;
+  /* posiciono boton en el viewport - elemento flotante */
+  bottom: 3rem;
+  /* lo posiciono abajo */
+  left: 90%;
+  /* y a la derecha*/
+  z-index: 200;
+  /* le doy un valor de 200 para que quede por encima de todo*/
+  /* Mobile */
+}
+@media only screen and (max-width: 570px) {
+  .floating-whatsapp-container {
+    left: 85%;
+  }
+}
+.floating-whatsapp-container .floating-whatsapp {
+  width: 4%;
+  border-radius: 100px;
+  box-shadow: 5px 5px 10px #a6657d;
+  background-color: #fafbfd;
+  /* Mobile */
+}
+@media only screen and (max-width: 570px) {
+  .floating-whatsapp-container .floating-whatsapp {
+    width: 12%;
+  }
+}
+@media only screen and (min-width: 571px) and (max-width: 990px) {
+  .floating-whatsapp-container .floating-whatsapp {
+    width: 8%;
+  }
+}
+.floating-whatsapp-container .floating-whatsapp:hover {
+  animation: inflate 1s ease-in;
+  /* animación al hacer hover sobre boton de subir */
+  -moz-animation: inflate 1s ease-in;
+  -webkit-animation: inflate 1s ease-in;
+  -o-animation: inflate 1s ease-in;
+}
+
+@keyframes inflate {
+  0% {
+    transform: scale(1);
+    /* tamaño en escala 1:1*/
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+    /* tamaño en escala 1.15:1 */
+    -moz-transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -o-transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+    /* tamaño en escala 1:1*/
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}
+/* Utilities */
+/* Pages */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Tamaño para los logos de Inmobiliaria Picado */
+/* Tamaño logos info de contacto */
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address .icon-marcador-de-posicion, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone .icon-call, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail .icon-mail {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+/* Tamaño logos redes sociales */
+footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-instagram, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-telegrama {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* Estilos links Footer */
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a {
+  text-decoration: none;
+  color: #fafbfd;
+  font-size: 0.9rem;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover {
+  color: #a6657d;
+}
+
+/* Tamaño logos sección Valores */
+.valores-container .valores .valores-logo {
+  width: 10rem;
+}
+
+/* Títulos secciones */
+.titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+  font-size: 2.5rem;
+  color: #a62454;
+  margin: 5rem 0 1rem 5rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+@media only screen and (min-width: 571px) and (max-width: 990px) {
+  .titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 9rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 10rem;
+  }
+}
+
+/* Tamaño logos sección Nosotros Misión Visión Valores */
+.nosotros-container .mision-vision-valores .mision-vision-valores-logo {
+  width: 10rem;
+}
+
+/* Tamaño logos sección Propiedades descripción */
+.propiedad-section-container .prop-section .card-price .icono-description, .propiedad-section-container .prop-section .card-description .icono-description {
+  width: 1.5rem;
+}
+
+/* Tamaño logos sección Propiedades amenities */
+.propiedad-section-container .prop-section .card-amenities .icono-description {
+  width: 2rem;
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Estilos comunes a todos los botones */
+.propiedad-section-container .prop-section .prop-button .prop-button-vermas, .formulario-container .formulario .enviar-button, .propiedad-button .vermas-button, header .navbar-top-container .navbar-top .navbar-button .search-button {
+  background: #a62454;
+  color: #fafbfd;
+  border-style: none;
+  border-color: #a6657d;
+  border-radius: 8px;
+  transition: all 1s ease;
+  box-shadow: none;
+  font-family: "Cormorant Garamond", "serif";
+  font-size: 1.2rem;
+}
+.propiedad-section-container .prop-section .prop-button .prop-button-vermas:hover, .formulario-container .formulario .enviar-button:hover, .propiedad-button .vermas-button:hover, header .navbar-top-container .navbar-top .navbar-button .search-button:hover {
+  background-color: #a6657d;
+  border-style: solid;
+  border-color: #a6657d;
+}
+
+/* Sección valores dentro del index */
+.valores-container {
+  /* Alineo los tres */
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem auto;
+  /*--- Tablet y mobile --- */
+}
+@media only screen and (max-width: 991px) {
+  .valores-container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.valores-container .valores {
+  width: 30%;
+  text-align: center;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  /*--- Tablet y mobile --- */
+}
+@media only screen and (max-width: 991px) {
+  .valores-container .valores {
+    width: 80%;
+  }
+}
+.valores-container .valores .valores-description {
+  text-align: center;
+  margin: 1rem 2rem 0 2rem;
+}
+.valores-container .valores .valores-title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1rem;
+}
+
+/* Sección Flip Card dentro del index */
+.card {
+  margin-bottom: 0;
+}
+
+.flip-card {
+  background-color: transparent;
+  height: 8rem;
+  /* Es necesario una altura para que aparezca en la página */
+  border: 0px;
+  perspective: 3000px;
+  /* Genera un efecto 3D */
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.flip-card:hover .flip-container {
+  transform: rotateY(180deg);
+  /* Crea la animación para girar la tarjeta de forma horizontal cuando el ratón se pone encima*/
+}
+
+.flip-container {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a62454;
+  margin: auto;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  width: 60%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flip-container .flip-card-front, .flip-container .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+}
+.flip-container .flip-card-front .poster-description, .flip-container .flip-card-back .poster-description {
+  color: #fafbfd;
+  font-family: "Cormorant Garamond", "serif";
+  font-size: 2rem;
+}
+.flip-container .flip-card-back {
+  background-color: #8c3e5b;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 1rem;
+}
+.flip-container .flip-card-back a {
+  color: #fafbfd;
+  text-decoration: none;
+}
+
+/* Fin sección Flip Card */
+/* Button sección Propiedades dentro del index */
+.propiedad-button {
+  width: 100%;
+  text-align: center;
+}
+.propiedad-button .vermas-button {
+  width: 10rem;
+  height: 3.5rem;
+  margin: 0 0 3rem 0;
+  font-family: "Cormorant Garamond", "serif";
+  font-size: 1.2rem;
+}
+.propiedad-button .vermas-button a {
+  color: #fafbfd;
+  text-decoration: none;
+}
+
+/* Sección Mapa dentro del index*/
+.map-container {
+  width: 100%;
+  background-image: url("../images/banner.png");
+  background-size: contain;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  /*--- Tablet y mobile --- */
+}
+@media only screen and (max-width: 991px) {
+  .map-container {
+    flex-direction: column;
+    width: 100%;
+    background-image: none;
+  }
+  .map-container .map {
+    overflow: hidden;
+    padding-bottom: 300px;
+    /*Reducir este valor si el mapa fuera muy alto, por ejemplo 250px, se pueden usar porcentajes, 50%*/
+    position: relative;
+    height: 0;
+    width: 90%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .map-container .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 70%;
+    width: 70%;
+    position: absolute;
+  }
+}
+.map-container .map-description {
+  background-color: rgba(140, 62, 91, 0.8);
+}
+.map-container .map-description p {
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-family: "Cormorant Garamond", "serif";
+  font-weight: 600;
+  text-align: center;
+  color: #fafbfd;
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Tamaño para los logos de Inmobiliaria Picado */
+/* Tamaño logos info de contacto */
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address .icon-marcador-de-posicion, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone .icon-call, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail .icon-mail {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+/* Tamaño logos redes sociales */
+footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-instagram, footer .navbar-bottom-container .info-contacto .redes-sociales .icon-telegrama {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* Estilos links Footer */
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a {
+  text-decoration: none;
+  color: #fafbfd;
+  font-size: 0.9rem;
+}
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover {
+  color: #a6657d;
+}
+
+/* Tamaño logos sección Valores */
+.valores-container .valores .valores-logo {
+  width: 10rem;
+}
+
+/* Títulos secciones */
+.titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+  font-size: 2.5rem;
+  color: #a62454;
+  margin: 5rem 0 1rem 5rem;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+@media only screen and (min-width: 571px) and (max-width: 990px) {
+  .titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 9rem;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .titulo-propiedades, .titulo-tips, .titulo-contacto, .titulo-nosotros {
+    text-align: left;
+    font-size: 2rem;
+    margin-top: 10rem;
+  }
+}
+
+/* Tamaño logos sección Nosotros Misión Visión Valores */
+.nosotros-container .mision-vision-valores .mision-vision-valores-logo {
+  width: 10rem;
+}
+
+/* Tamaño logos sección Propiedades descripción */
+.propiedad-section-container .prop-section .card-price .icono-description, .propiedad-section-container .prop-section .card-description .icono-description {
+  width: 1.5rem;
+}
+
+/* Tamaño logos sección Propiedades amenities */
+.propiedad-section-container .prop-section .card-amenities .icono-description {
+  width: 2rem;
+}
+
+/* Colores más utilizados */
+/* Fonts más utilizadas */
+/* Estilos comunes a todos los botones */
+.propiedad-section-container .prop-section .prop-button .prop-button-vermas, .formulario-container .formulario .enviar-button, header .navbar-top-container .navbar-top .navbar-button .search-button, .propiedad-button .vermas-button {
+  background: #a62454;
+  color: #fafbfd;
+  border-style: none;
+  border-color: #a6657d;
+  border-radius: 8px;
+  transition: all 1s ease;
+  box-shadow: none;
+  font-family: "Cormorant Garamond", "serif";
+  font-size: 1.2rem;
+}
+.propiedad-section-container .prop-section .prop-button .prop-button-vermas:hover, .formulario-container .formulario .enviar-button:hover, header .navbar-top-container .navbar-top .navbar-button .search-button:hover, .propiedad-button .vermas-button:hover {
+  background-color: #a6657d;
+  border-style: solid;
+  border-color: #a6657d;
+}
+
+/* Sección Nosotros */
+.nosotros {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 991px) {
+  .nosotros {
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    text-align: left;
+  }
+}
+.nosotros .texto-nosotros {
+  margin: 1rem 4rem 1rem 1rem;
+}
+@media only screen and (max-width: 991px) {
+  .nosotros .texto-nosotros {
+    width: 80%;
+    margin: 1rem;
+    justify-content: center;
+  }
+}
+.nosotros .imagen-nosotros {
+  margin: 1rem 1rem 1rem 4rem;
+}
+@media only screen and (max-width: 991px) {
+  .nosotros .imagen-nosotros {
+    width: 80%;
+    margin: 1rem;
+  }
+}
+
+.nosotros-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+@media only screen and (max-width: 991px) {
+  .nosotros-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.nosotros-container .mision-vision-valores {
+  text-align: center;
+  margin: 3rem 0;
+  width: 30%;
+}
+@media only screen and (max-width: 991px) {
+  .nosotros-container .mision-vision-valores {
+    width: 80%;
+  }
+}
+.nosotros-container .mision-vision-valores .mision-vision-valores-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+}
+.nosotros-container .mision-vision-valores .mision-vision-valores-description {
+  margin: 0.5rem 4rem;
+}
+
+/* Sección Contacto */
+.formulario-subtitle {
+  width: 90%;
+  margin-left: 4rem;
+}
+@media only screen and (max-width: 991px) {
+  .formulario-subtitle {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+.formulario-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 991px) {
+  .formulario-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+.formulario-container .formulario {
+  width: 60%;
+  height: 500px;
+  margin: 2rem 6rem;
+  text-align: center;
+}
+.formulario-container .formulario .enviar-button {
+  margin: 1rem;
+}
+.formulario-container .formulario-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  font-weight: 500;
+}
+.formulario-container .formulario-description p {
+  padding: 0.35rem;
+}
+.formulario-container .formulario-description .redes-sociales {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.formulario-container .formulario-description .redes-sociales .icon-facebook-color, .formulario-container .formulario-description .redes-sociales .icon-instagram-color, .formulario-container .formulario-description .redes-sociales .icon-telegrama-color {
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+.formulario-container .formulario-description .redes-sociales .icon-facebook-color:hover:before, .formulario-container .formulario-description .redes-sociales .icon-instagram-color:hover:before, .formulario-container .formulario-description .redes-sociales .icon-telegrama-color:hover:before {
+  /* Necesito el before para el hover de las fuentes de icomoon */
+  color: #a6657d;
+}
+.formulario-container .formulario-description a {
+  color: black;
+  text-decoration: none;
+}
+.formulario-container .formulario-description a:hover {
+  background-color: transparent;
+  color: #a62454;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Sección Tips */
+.tips-section {
+  margin: 1rem 4rem;
+  display: flex;
+  justify-content: center;
+}
+.tips-section .tips-container {
+  font-size: 1rem;
+  text-align: left;
+  width: 80%;
+  height: 100%;
+  padding: 1rem;
+  margin: 0 1rem 1rem 0rem;
+}
+.tips-section .tips-container .tip1 {
+  background-color: #bfa4ae;
+}
+.tips-section .tips-container .tip2 {
+  background-color: #a6657d;
+}
+.tips-section .tips-container .tip3 {
+  background-color: #8c3e5b;
+}
+.tips-section .tips-container .tip4 {
+  background-color: #8c1c45;
+}
+.tips-section .tips-container .tip5 {
+  background-color: #bfa4ae;
+}
+.tips-section .tips-container .tip1, .tips-section .tips-container .tip2, .tips-section .tips-container .tip3, .tips-section .tips-container .tip4, .tips-section .tips-container .tip5 {
+  padding: 1rem;
+  border-radius: 10px;
+  justify-self: center;
+  box-shadow: 5px 5px 15px #d7d7d9;
+  color: #fafbfd;
+}
+
+/* Sección Propiedades */
+.propiedad-section-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1.5rem auto;
+  /* Mobile y Tablet */
+}
+@media only screen and (max-width: 990px) {
+  .propiedad-section-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.propiedad-section-container .prop-section {
+  width: 30%;
+  border-style: solid;
+  border-color: #bfa4ae;
+  box-shadow: 5px 5px 15px #d7d7d9;
+  border-width: 1px;
+  margin: 1rem auto;
+  /* Mobile y Tablet */
+}
+@media only screen and (max-width: 990px) {
+  .propiedad-section-container .prop-section {
+    width: 100%;
+  }
+}
+.propiedad-section-container .prop-section:hover {
+  opacity: 0.6rem;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.propiedad-section-container .prop-section .propiedad-title {
+  background-color: #a62454;
+  padding: 1rem;
+  font-weight: 400;
+}
+.propiedad-section-container .prop-section .card-price, .propiedad-section-container .prop-section .card-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem 0.1rem;
+  padding: 0;
+  font-weight: 600;
+}
+.propiedad-section-container .prop-section .card-price p, .propiedad-section-container .prop-section .card-description p {
+  padding: 0 0.5rem;
+}
+.propiedad-section-container .prop-section .card-amenities {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.propiedad-section-container .prop-section .card-amenities .card-text {
+  margin: 0;
+  text-align: center;
+}
+.propiedad-section-container .prop-section .prop-button {
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

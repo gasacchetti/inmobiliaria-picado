@@ -1,0 +1,110 @@
+@import '../base/colors';
+@import '../base/fonts';
+@import '../base/extends';
+
+@import '../utilities/mixins';
+
+
+footer {
+    /* Color de fondo del footer */
+    background-color: $bordo;
+    padding: 0;
+    margin: 0;
+
+
+    .navbar-bottom-container {
+        /* Display del footer */
+        @include parametros-flex(100%, flex, space-evenly, center);
+        flex-wrap: wrap;
+        padding: 1rem 4rem;
+        color: $white;
+
+
+        /* Hover del logo del footer NO FUNCIONA EL TRANSFORM */
+        .logo {
+            padding: 1rem;
+            a {
+                img:hover {
+                    transform: scale(1.1);
+                    opacity: 0.8;
+                    transition: all 0.5s ease-in;
+                }
+            }
+        }    
+
+        /* Info de contacto y redes sociales */
+        .info-contacto {                 
+    
+            .info-contacto-container {
+                @include parametros-flex(100%, flex, center, center);
+                flex-direction: column;
+    
+                .info-contacto-address {
+                    @include parametros-flex(100%, flex, left, center);
+                    
+                    p {
+                        margin: 0.2rem;
+                        text-align: center;
+                    }
+                    .icon-marcador-de-posicion {
+                        @extend %size-info-contacto;
+                    }
+                }
+        
+                .info-contacto-phone {
+                    @include parametros-flex(100%, flex, left, center);
+                    
+                    a {
+                        margin: 0.2rem;
+                        text-align: center;
+                        @extend %a-footer;
+                    }
+    
+                    .icon-call {
+                        @extend %size-info-contacto;
+                    }
+                }
+    
+                .info-contacto-mail {
+                    @include parametros-flex(100%, flex, left, center);
+                    
+                    a {
+                        margin: 0.2rem;
+                        text-align: center;
+                        @extend %a-footer;
+                    }
+                    
+                    .icon-mail {
+                        @extend %size-info-contacto;
+                    }
+                }
+            }
+
+            .redes-sociales {
+                @include parametros-flex(100%, flex, center, center);
+                padding: 0.5rem;
+                margin-top: 0.5rem;
+
+                a {
+                    text-decoration: none;
+                }
+    
+
+                .icon-facebook, .icon-instagram, .icon-telegrama {
+                    @extend %size-redes-sociales;
+                  
+                    &:hover:before { /* Necesito el before para el hover de las fuentes de icomoon */
+                        color: $lighterbordo;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .sub-footer {
+        text-align: center;
+        border-top:  1px solid $white;
+        margin: 0.1rem auto;
+
+    }  
+}

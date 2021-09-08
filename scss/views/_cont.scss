@@ -1,0 +1,280 @@
+@import '../base/colors';
+@import '../base/fonts';
+@import '../base/extends';
+@import '../base/lists';
+@import '../base/maps';
+
+@import '../components/buttons';
+
+@import '../utilities/mixins';
+
+/* Sección Nosotros */
+.titulo-nosotros {
+    @extend %title-secciones;    
+}
+
+.nosotros {
+    @include parametros-flex(100%, flex, space-around, flex-start);
+    
+    @media only screen and (max-width: 991px)  {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        text-align: left;
+    }
+
+    .texto-nosotros {
+        margin: 1rem 4rem 1rem 1rem;
+
+        @media only screen and (max-width: 991px)  {
+            width: 80%;
+            margin: 1rem;
+            justify-content: center;
+        }
+    }
+
+    .imagen-nosotros {
+        margin: 1rem 1rem 1rem 4rem;
+
+        @media only screen and (max-width: 991px)  {
+            width: 80%;
+            margin: 1rem;
+        }
+    }
+}
+.nosotros-container {
+    @include parametros-flex(100%, flex, space-around, start);
+
+    @media only screen and (max-width: 991px)  {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .mision-vision-valores {
+        text-align: center;
+        margin: 3rem 0;
+        width: 30%;
+        @media only screen and (max-width: 991px)  {
+            width: 80%;
+        }
+
+        .mision-vision-valores-logo {
+            @extend %size-nosotros-valores ;
+        }
+
+        .mision-vision-valores-title {
+            font-weight: bold;
+            font-size: nth($font-size, 3);
+            font-family: $openSans;
+        }
+
+        .mision-vision-valores-description {
+            margin: 0.5rem 4rem;
+        }
+    }
+}
+
+/* Sección Contacto */
+.titulo-contacto {
+    @extend %title-secciones;
+}
+
+.formulario-subtitle {
+    width: 90%;
+    margin-left: 4rem;
+
+    @media only screen and (max-width: 991px)  {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+.formulario-container {
+    @include parametros-flex(100%, flex, space-around, start);
+    margin: 0;
+    padding: 0;
+
+    @media only screen and (max-width: 991px)  {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+        .formulario {
+            width: 60%;
+            height: 500px;
+            margin: 2rem 6rem;
+            text-align: center;
+        
+            .enviar-button {
+                @extend %btn-common;
+                margin: 1rem;
+            }
+        }
+
+        .formulario-description {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem 0;
+            font-weight: 500;
+ 
+            p {
+                padding: 0.35rem;
+            }
+            .redes-sociales {
+                @include parametros-flex(100%, flex, center, center);
+                padding: map-get($padding, small);
+    
+                .icon-facebook-color, .icon-instagram-color, .icon-telegrama-color {
+                    font-size: 2.5rem;
+                    padding: 1rem;
+
+                    &:hover:before { /* Necesito el before para el hover de las fuentes de icomoon */
+                        color: $lighterbordo;
+                    }
+                }
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            
+                &:hover {
+                    background-color: transparent;
+                    color: $bordo;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
+        }
+}
+
+/* Sección Tips */
+.titulo-tips {
+    @extend %title-secciones;
+}
+.tips-section  {
+    margin: 1rem 4rem;
+    display: flex;
+    justify-content: center;
+
+    .tips-container {
+        font-size: 1rem;
+        text-align: left;
+        width: 80%;
+        height: 100%;
+        padding: map-get($padding, small);
+        margin: 0 1rem 1rem 0rem; 
+     
+        .tip1  {
+            background-color: $graylilac;
+        }
+        
+        .tip2  {
+            background-color: $lighterbordo;
+        }
+        
+        .tip3  {
+            background-color: $lightbordo;
+        }
+        
+        .tip4 {
+            background-color: $mediumbordo;
+        }
+        
+        .tip5  {
+            background-color: $graylilac;
+        } 
+        
+        .tip1, .tip2, .tip3, .tip4, .tip5 {
+            padding: map-get($padding, small);
+            border-radius: 10px;
+            justify-self: center; 
+            box-shadow: 5px 5px 15px $white-2;
+            color: $white;
+        }
+    }
+}
+
+/* Sección Propiedades */
+
+.titulo-propiedades {
+    @extend %title-secciones;
+}
+
+.propiedad-section-container {
+    @include parametros-flex(80%, flex, space-around, center);
+    flex-wrap: wrap;
+    margin: 1.5rem auto;
+
+    /* Mobile y Tablet */
+    @media only screen and (max-width: 990px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .prop-section {
+        width: 30%;
+        border-style: solid;
+        border-color: $graylilac;
+        box-shadow: 5px 5px 15px #d7d7d9;
+        border-width: 1px;
+        margin: 1rem auto;
+
+        /* Mobile y Tablet */
+        @media only screen and (max-width: 990px) {
+            width: 100%;
+        }
+
+        &:hover {
+            opacity: 0.6rem;
+            transform: scale(1.1);
+            transition: all 0.5s;
+        }
+
+        .propiedad-title {
+            background-color: $bordo;
+            padding: map-get($padding, small);
+            font-weight: 400;
+
+        }
+
+        .card-price, .card-description {
+            @include parametros-flex(100%, flex, center, center);
+            margin: 0.3rem 0.1rem;
+            padding: 0;
+            font-weight: 600;
+
+            p {
+                padding: 0 0.5rem;
+            }
+
+            .icono-description {
+                @extend %size-propiedades-description;
+
+            }
+        }
+
+        .card-amenities {
+            @include parametros-flex(100%, flex, space-around, center); 
+            
+            .card-text {
+                margin: 0;
+                text-align: center;
+            }
+
+            .icono-description {
+                @extend %size-propiedades-amenities;
+            }
+        }
+
+        .prop-button {
+            width: 100%;
+            text-align: center;
+            .prop-button-vermas {
+                @extend %btn-common;
+            }
+        }
+    }
+}

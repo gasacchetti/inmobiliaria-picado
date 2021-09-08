@@ -1,0 +1,53 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+/* Reseteo todos los valores que vienen con html por default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Color de fondo, fuente y color general para todo el body */
+
+body {
+    background-color: $white; /* fondo para toda la página */
+    font-family: $montserrat; /* fuente para toda la página */
+    color: $black; /* color fuente para toda la página */
+}
+
+/* Títulos principales de todas las secciones */
+
+h1 {
+    color: $white;
+    font-family: $cormorant;
+    font-weight: normal;
+}
+
+/* Títulos secundarios de todas las secciones */
+
+h2 {
+    color: $bordo;
+    font-family: $cormorant;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Subtítulos menos importantes */
+
+h3 {
+    color: $white;
+    font-family: $montserrat;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 550;
+}
+
+/* Párrafos normales */
+
+p {
+    font-size: 15px;
+}
+

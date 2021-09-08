@@ -1,0 +1,23 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+
+/* Estilos comunes a todos los botones */
+%btn-common {
+    background: $bordo; 
+    color: $white;
+    border-style: none;
+    border-color: $lighterbordo;
+    border-radius: 8px;
+    transition: all 1s ease;
+    box-shadow: none;
+    font-family: $cormorant;
+    font-size: 1.2rem;
+
+    &:hover {
+        background-color: $lighterbordo;
+        border-style: solid;
+        border-color: $lighterbordo;
+    }
+}
+

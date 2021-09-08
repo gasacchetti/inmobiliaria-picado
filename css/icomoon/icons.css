@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'icomoon-IP';
+  src:
+    url('fonts/icomoon-IP.ttf?3lofm') format('truetype'),
+    url('fonts/icomoon-IP.woff?3lofm') format('woff'),
+    url('fonts/icomoon-IP.svg?3lofm#icomoon-IP') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-IP' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-handshake:before {
+  content: "\e900";
+  color: #731739;
+}
+.icon-home:before {
+  content: "\e901";
+  color: #731739;
+}
+.icon-real-estate:before {
+  content: "\e902";
+  color: #731739;
+}
+.icon-target .path1:before {
+  content: "\e903";
+  color: rgb(115, 23, 57);
+}
+.icon-target .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lightbulb .path1:before {
+  content: "\e905";
+  color: rgb(115, 23, 57);
+}
+.icon-lightbulb .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lightbulb .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lightbulb .path4:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lightbulb .path5:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lightbulb .path6:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lightbulb .path7:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lightbulb .path8:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lightbulb .path9:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-lightbulb .path10:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-dolar:before {
+  content: "\e90f";
+  color: #731739;
+}
+.icon-area:before {
+  content: "\e910";
+  color: #731839;
+}
+.icon-bathtub:before {
+  content: "\e911";
+  color: #731739;
+}
+.icon-bed:before {
+  content: "\e912";
+  color: #731739;
+}
+.icon-garage:before {
+  content: "\e913";
+  color: #731739;
+}
+.icon-call:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon-comment .path1:before {
+  content: "\e915";
+  color: rgb(115, 23, 57);
+}
+.icon-comment .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-comment .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-facebook:before {
+  content: "\e918";
+  color: #fff7f7;
+}
+.icon-facebook-color:before {
+  content: "\e919";
+  color: #731739;
+}
+.icon-instagram:before {
+  content: "\e91a";
+  color: #fff;
+}
+.icon-instagram-color:before {
+  content: "\e91b";
+  color: #731739;
+}
+.icon-mail:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon-marcador-de-posicion:before {
+  content: "\e91d";
+  color: #fff;
+}
+.icon-marcador-de-posicion-color:before {
+  content: "\e91e";
+  color: #731739;
+}
+.icon-telegrama:before {
+  content: "\e91f";
+  color: #fff;
+}
+.icon-telegrama-color:before {
+  content: "\e920";
+  color: #731739;
+}
+.icon-whatsapp:before {
+  content: "\e921";
+  color: #fff;
+}
+.icon-whatsapp-float:before {
+  content: "\e922";
+  color: #731739;
+}

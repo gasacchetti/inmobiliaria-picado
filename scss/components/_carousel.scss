@@ -1,0 +1,24 @@
+@import '../base/colors';
+@import '../base/fonts';
+
+.carousel {
+    width: 40%;
+    margin: 2rem auto;
+
+    /* --- Tablet y mobile --- */
+    @media only screen and (max-width: 991px) {
+        width: 70%;
+    }   
+}
+
+.carousel-item {
+    p {
+        font-weight: 500;
+        color: $white;
+    }
+}
+
+.carousel-caption {
+   background-color: rgb(166,101,125,0.7);
+}
+
