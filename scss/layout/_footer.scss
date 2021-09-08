@@ -8,13 +8,7 @@
 footer {
     /* Color de fondo del footer */
     background-color: $bordo;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    width: 100%;
-
-
-
+  
     .navbar-bottom-container {
         /* Display del footer */
         @include parametros-flex(100%, flex, space-evenly, center);
@@ -107,7 +101,7 @@ footer {
     .sub-footer {  
         text-align: center;
         border-top:  1px solid $white;
-        margin: 0.1rem auto;
+        margin: 0.1rem auto 0;
         color: $white-2;
         width: 90%;
      

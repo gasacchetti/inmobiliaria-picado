@@ -379,10 +379,6 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 footer {
   /* Color de fondo del footer */
   background-color: #a62454;
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  width: 100%;
 }
 footer .navbar-bottom-container {
   /* Display del footer */
@@ -459,7 +455,7 @@ footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook:ho
 footer .sub-footer {
   text-align: center;
   border-top: 1px solid #fafbfd;
-  margin: 0.1rem auto;
+  margin: 0.1rem auto 0;
   color: #d7d7d9;
   width: 90%;
 }
@@ -994,6 +990,11 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 }
 .nosotros-container .mision-vision-valores .mision-vision-valores-description {
   margin: 0.5rem 4rem;
+}
+@media only screen and (max-width: 991px) {
+  .nosotros-container .mision-vision-valores .mision-vision-valores-description {
+    margin: 1rem auto;
+  }
 }
 
 /* Sección Contacto */
