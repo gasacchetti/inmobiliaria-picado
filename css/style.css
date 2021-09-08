@@ -118,7 +118,7 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 
 /* Tamaño logos sección Propiedades amenities */
 .propiedad-section-container .prop-section .card-amenities i {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 /* Layout */
@@ -373,7 +373,7 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 
 /* Tamaño logos sección Propiedades amenities */
 .propiedad-section-container .prop-section .card-amenities i {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 footer {
@@ -458,6 +458,7 @@ footer .sub-footer {
   text-align: center;
   border-top: 1px solid #fafbfd;
   margin: 0.1rem auto;
+  color: #d7d7d9;
 }
 
 /* Components */
@@ -639,7 +640,7 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 
 /* Tamaño logos sección Propiedades amenities */
 .propiedad-section-container .prop-section .card-amenities i {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 /* Colores más utilizados */
@@ -900,7 +901,7 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 
 /* Tamaño logos sección Propiedades amenities */
 .propiedad-section-container .prop-section .card-amenities i {
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 /* Colores más utilizados */
@@ -1164,6 +1165,11 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 .propiedad-section-container .prop-section .prop-button {
   width: 100%;
   text-align: center;
+}
+.propiedad-section-container .prop-section .prop-button .prop-button-vermas {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
