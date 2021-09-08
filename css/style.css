@@ -757,6 +757,11 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
   font-family: "Cormorant Garamond", "serif";
   font-size: 2rem;
 }
+@media only screen and (max-width: 991px) {
+  .flip-container .flip-card-front .poster-description, .flip-container .flip-card-back .poster-description {
+    font-size: 1.5rem;
+  }
+}
 .flip-container .flip-card-back {
   background-color: #8c3e5b;
   color: white;
