@@ -250,9 +250,8 @@
                 padding: 0 0.5rem;
             }
 
-            .icono-description {
+            i {
                 @extend %size-propiedades-description;
-
             }
         }
 
@@ -264,7 +263,7 @@
                 text-align: center;
             }
 
-            .icono-description {
+            i {
                 @extend %size-propiedades-amenities;
             }
         }

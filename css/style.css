@@ -58,7 +58,7 @@ p {
 /* Tamaño para los logos de Inmobiliaria Picado */
 /* Tamaño logos info de contacto */
 footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail .icon-mail, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone .icon-call, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address .icon-marcador-de-posicion {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.5rem;
 }
 
@@ -111,14 +111,14 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
   width: 10rem;
 }
 
-/* Tamaño logos sección Propiedades descripción */
-.propiedad-section-container .prop-section .card-price .icono-description, .propiedad-section-container .prop-section .card-description .icono-description {
-  width: 1.5rem;
+/* Tamaño iconos sección Propiedades descripción */
+.propiedad-section-container .prop-section .card-price i, .propiedad-section-container .prop-section .card-description i {
+  font-size: 1.5rem;
 }
 
 /* Tamaño logos sección Propiedades amenities */
-.propiedad-section-container .prop-section .card-amenities .icono-description {
-  width: 2rem;
+.propiedad-section-container .prop-section .card-amenities i {
+  font-size: 2rem;
 }
 
 /* Layout */
@@ -313,7 +313,7 @@ header .navbar-top-container .navbar-top .navbar-button {
 /* Tamaño para los logos de Inmobiliaria Picado */
 /* Tamaño logos info de contacto */
 footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail .icon-mail, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone .icon-call, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address .icon-marcador-de-posicion {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.5rem;
 }
 
@@ -366,14 +366,14 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
   width: 10rem;
 }
 
-/* Tamaño logos sección Propiedades descripción */
-.propiedad-section-container .prop-section .card-price .icono-description, .propiedad-section-container .prop-section .card-description .icono-description {
-  width: 1.5rem;
+/* Tamaño iconos sección Propiedades descripción */
+.propiedad-section-container .prop-section .card-price i, .propiedad-section-container .prop-section .card-description i {
+  font-size: 1.5rem;
 }
 
 /* Tamaño logos sección Propiedades amenities */
-.propiedad-section-container .prop-section .card-amenities .icono-description {
-  width: 2rem;
+.propiedad-section-container .prop-section .card-amenities i {
+  font-size: 2rem;
 }
 
 footer {
@@ -579,7 +579,7 @@ footer .sub-footer {
 /* Tamaño para los logos de Inmobiliaria Picado */
 /* Tamaño logos info de contacto */
 footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address .icon-marcador-de-posicion, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone .icon-call, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail .icon-mail {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.5rem;
 }
 
@@ -632,14 +632,14 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
   width: 10rem;
 }
 
-/* Tamaño logos sección Propiedades descripción */
-.propiedad-section-container .prop-section .card-price .icono-description, .propiedad-section-container .prop-section .card-description .icono-description {
-  width: 1.5rem;
+/* Tamaño iconos sección Propiedades descripción */
+.propiedad-section-container .prop-section .card-price i, .propiedad-section-container .prop-section .card-description i {
+  font-size: 1.5rem;
 }
 
 /* Tamaño logos sección Propiedades amenities */
-.propiedad-section-container .prop-section .card-amenities .icono-description {
-  width: 2rem;
+.propiedad-section-container .prop-section .card-amenities i {
+  font-size: 2rem;
 }
 
 /* Colores más utilizados */
@@ -840,7 +840,7 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 /* Tamaño para los logos de Inmobiliaria Picado */
 /* Tamaño logos info de contacto */
 footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address .icon-marcador-de-posicion, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone .icon-call, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail .icon-mail {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 0.5rem;
 }
 
@@ -893,14 +893,14 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
   width: 10rem;
 }
 
-/* Tamaño logos sección Propiedades descripción */
-.propiedad-section-container .prop-section .card-price .icono-description, .propiedad-section-container .prop-section .card-description .icono-description {
-  width: 1.5rem;
+/* Tamaño iconos sección Propiedades descripción */
+.propiedad-section-container .prop-section .card-price i, .propiedad-section-container .prop-section .card-description i {
+  font-size: 1.5rem;
 }
 
 /* Tamaño logos sección Propiedades amenities */
-.propiedad-section-container .prop-section .card-amenities .icono-description {
-  width: 2rem;
+.propiedad-section-container .prop-section .card-amenities i {
+  font-size: 2rem;
 }
 
 /* Colores más utilizados */
