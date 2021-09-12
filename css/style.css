@@ -253,6 +253,9 @@ header .navbar-top-container .navbar-top:hover {
   background-color: #a62454;
   transition: background-color 1.5s ease-in-out;
 }
+header .navbar-top-container .navbar-top ul li .active {
+  font-weight: bold;
+}
 header .navbar-top-container .navbar-top ul li a {
   /* Estilos para los links de la navbar, el padding idéntico es para que no "titile" */
 }
@@ -269,10 +272,16 @@ header .navbar-top-container .navbar-top ul li a:link {
 header .navbar-top-container .navbar-top ul li a:visited {
   color: #fafbfd;
 }
+header .navbar-top-container .navbar-top ul li a:active {
+  color: red;
+}
 header .navbar-top-container .navbar-top .dropdown {
   /* Estilos para acomodar el dropdown que traía los estilos de Bootstrap */
   /* Estilos para los links del submenú */
   /* Color y hover para el split button */
+}
+header .navbar-top-container .navbar-top .dropdown .btn .active {
+  font-weight: bold;
 }
 header .navbar-top-container .navbar-top .dropdown .btn a {
   font-size: 1.2rem;

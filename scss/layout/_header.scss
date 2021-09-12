@@ -112,6 +112,9 @@ header {
                 }
                 ul {
                     li {
+                        .active {
+                            font-weight: bold;
+                        }
                         a {
                             /* Estilos para los links de la navbar, el padding idéntico es para que no "titile" */
                             &:hover{
@@ -127,12 +130,18 @@ header {
                             &:visited {
                                 color: $white;
                             }
+                            &:active {
+                                color: red;
+                            }
                         }
                     }
                 }               
                 .dropdown {
                     /* Estilos para acomodar el dropdown que traía los estilos de Bootstrap */
                     .btn {
+                        .active {
+                            font-weight: bold;
+                        }
                         a {
                             font-size: 1.2rem;
                             text-decoration: none;
