@@ -69,12 +69,12 @@ footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook, f
 }
 
 /* Estilos links Footer */
-footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a {
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a, footer .navbar-bottom-container .navbar-bottom-links ul a {
   text-decoration: none;
   color: #fafbfd;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
-footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover {
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover, footer .navbar-bottom-container .navbar-bottom-links ul a:hover {
   color: #a6657d;
 }
 
@@ -261,7 +261,6 @@ header .navbar-top-container .navbar-top ul li a {
 }
 header .navbar-top-container .navbar-top ul li a:hover {
   background-color: #8c3e5b;
-  color: #fafbfd;
   padding: 0.2rem;
 }
 header .navbar-top-container .navbar-top ul li a:link {
@@ -271,9 +270,6 @@ header .navbar-top-container .navbar-top ul li a:link {
 }
 header .navbar-top-container .navbar-top ul li a:visited {
   color: #fafbfd;
-}
-header .navbar-top-container .navbar-top ul li a:active {
-  color: red;
 }
 header .navbar-top-container .navbar-top .dropdown {
   /* Estilos para acomodar el dropdown que traía los estilos de Bootstrap */
@@ -350,12 +346,12 @@ footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook, f
 }
 
 /* Estilos links Footer */
-footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a {
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a, footer .navbar-bottom-container .navbar-bottom-links ul a {
   text-decoration: none;
   color: #fafbfd;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
-footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover {
+footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover, footer .navbar-bottom-container .navbar-bottom-links ul a:hover {
   color: #a6657d;
 }
 
@@ -405,18 +401,22 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 footer {
   /* Color de fondo del footer */
   background-color: #a62454;
+  width: 100%;
 }
 footer .navbar-bottom-container {
   /* Display del footer */
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding: 1rem 4rem;
   color: #fafbfd;
-  /* Hover del logo del footer NO FUNCIONA EL TRANSFORM */
+  /* Hover del logo del footer*/
   /* Info de contacto y redes sociales */
+}
+footer .navbar-bottom-container .navbar-bottom-links ul {
+  list-style-type: none;
 }
 footer .navbar-bottom-container .logo {
   padding: 1rem;
@@ -442,6 +442,7 @@ footer .navbar-bottom-container .info-contacto .info-contacto-container .info-co
 footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-address p {
   margin: 0.2rem;
   text-align: center;
+  font-size: 1rem;
 }
 footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone {
   width: 100%;
@@ -619,12 +620,12 @@ footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook, f
 }
 
 /* Estilos links Footer */
-footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a {
+footer .navbar-bottom-container .navbar-bottom-links ul a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a {
   text-decoration: none;
   color: #fafbfd;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
-footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover {
+footer .navbar-bottom-container .navbar-bottom-links ul a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover {
   color: #a6657d;
 }
 
@@ -885,12 +886,12 @@ footer .navbar-bottom-container .info-contacto .redes-sociales .icon-facebook, f
 }
 
 /* Estilos links Footer */
-footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a {
+footer .navbar-bottom-container .navbar-bottom-links ul a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a {
   text-decoration: none;
   color: #fafbfd;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
-footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover {
+footer .navbar-bottom-container .navbar-bottom-links ul a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-phone a:hover, footer .navbar-bottom-container .info-contacto .info-contacto-container .info-contacto-mail a:hover {
   color: #a6657d;
 }
 

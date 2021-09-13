@@ -97,13 +97,12 @@ header {
                 color: $white-2;
             }
             .navbar-top {
+            
                 @media only screen and (max-width: 990px) {
                     background-color: rgb(166,101,125,0.7);
                     margin: 0 10rem;
                     z-index: 100;
                     padding: 0.5rem;
-    
-
                 }
                 /* Al hacer hover toda la navbar completa transiciona a bordó */
                 &:hover {
@@ -112,6 +111,7 @@ header {
                 }
                 ul {
                     li {
+                        
                         .active {
                             font-weight: bold;
                         }
@@ -119,7 +119,6 @@ header {
                             /* Estilos para los links de la navbar, el padding idéntico es para que no "titile" */
                             &:hover{
                                 background-color: $lightbordo;
-                                color: $white;
                                 padding: 0.2rem;
                             }
                             &:link {
@@ -130,9 +129,7 @@ header {
                             &:visited {
                                 color: $white;
                             }
-                            &:active {
-                                color: red;
-                            }
+                          
                         }
                     }
                 }               

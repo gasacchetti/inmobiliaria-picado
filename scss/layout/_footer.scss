@@ -8,16 +8,27 @@
 footer {
     /* Color de fondo del footer */
     background-color: $bordo;
+    width: 100%;
   
     .navbar-bottom-container {
+        .navbar-bottom-links {
+            ul {
+            list-style-type: none;
+                a {
+                    @extend %a-footer;
+                }
+            }
+
+        }
+
         /* Display del footer */
-        @include parametros-flex(100%, flex, space-evenly, center);
+        @include parametros-flex(100%, flex, space-around, center);
         flex-wrap: wrap;
         padding: 1rem 4rem;
         color: $white;
 
 
-        /* Hover del logo del footer NO FUNCIONA EL TRANSFORM */
+        /* Hover del logo del footer*/
         .logo {
             padding: 1rem;
             a {
@@ -42,6 +53,7 @@ footer {
                     p {
                         margin: 0.2rem;
                         text-align: center;
+                        font-size: 1rem;
                     }
                     .icon-marcador-de-posicion {
                         @extend %size-info-contacto;
